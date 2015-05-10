@@ -22,13 +22,13 @@ to keep your client decoupled from implementation details.
             "questions_url": "/questions"
         }
 
-## Group Question
+## Group Product
 
-Resources related to questions in the API.
+Resources related to products in the API.
 
-## Question [/questions/{question_id}]
+## Product [/products/{product_id}]
 
-A Question object has the following attributes:
+A Product object has the following attributes:
 
 + question
 + published_at - An ISO8601 date when the question was published.
@@ -36,7 +36,7 @@ A Question object has the following attributes:
 + choices - An array of Choice objects.
 
 + Parameters
-    + question_id (required, number, `1`) ... ID of the Question in form of an integer
+    + product_id (required, number, `1`) ... ID of the Question in form of an integer
 
 ### View a Questions Detail [GET]
 
